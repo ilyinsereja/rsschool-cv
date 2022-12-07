@@ -7,8 +7,8 @@
 <br>
 
 ## About me:
-I started this course to test my abilities. So far, I like the front-end direction and I see my development path in it.\
-I like to see the result of my work, that's why I'm here. I have no work experience and serious projects yet, but I am sure that everything is ahead.\
+I started this course to test my abilities. So far, I like the front-end direction and I see my development path in it.
+I like to see the result of my work, that's why I'm here. I have no work experience and serious projects yet, but I am sure that everything is ahead.
 
 ## My skills:
 - HTML5
@@ -20,7 +20,7 @@ I like to see the result of my work, that's why I'm here. I have no work experie
 
 ```function multiply(a, b) {
   return a * b
-}
+};
 ```
 <br>
 
