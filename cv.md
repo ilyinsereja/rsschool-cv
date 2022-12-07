@@ -1,5 +1,3 @@
-[rsschool-cv](https://ilyinsereja.github.io/rsschool-cv/cv)   
-****   
 # Sergey Ilyin   
 ****   
 ## My contacts:   
@@ -20,7 +18,7 @@ I like to see the result of my work, that's why I'm here. I have no work experie
 ```
 function multiply(a, b){
   return a * b
-  
+
 }
 ```
 ****   
