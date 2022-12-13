@@ -4,17 +4,94 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="rsschool-cv/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>rsschool-cv</title>
 </head>
 <body>
-  <h1>Sergey Ilyin</h1>
-  <h2>My contacts</h2>
-  <h2>About me</h2>
-  <h2>My skills</h2>
-  <h2>Code examples</h2>
-  <h2>Work experience</h2>
-  <h2>Education</h2>
-  <h2>Languages</h2>
-</body>
+    <header>
+      <h3 class="cv">Curriculum vitae</h3>
+      <nav>
+        <ul>
+          <li><a href="#my-contact">My contacts</a></li>
+          <li><a href="#my-skills">My skills</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#code-examples">Code examples</a></li>
+          <li><a href="#work-experience">Work experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+  <main>
+    <div class="left-side">
+      <figure class="container-photo-cv">
+        <img src="img/photo_2022-12-11_23-49-57.jpg" alt="avatar" width="225" height="300" class="photo-cv">
+      </figure>
+      <section class="my-contact" id="my-contact">
+        <h2>My contacts</h2><hr>
+          <ul>
+            <li>Telegram: @ilyins</li>
+            <li>Email: ilyinmann@gmail.com</li>
+            <li>Discord: S.Ilyin#8418</li>
+          </ul>
+      </section>
+      <section class="my-skills" id="my-skills">
+        <h2>My skills</h2><hr>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+      </section>
+    </div>
+    <div class="right-side">
+      <section class="bio">
+      <h1>Sergey Ilyin</h1>
+        <h3>Intern Front-end developer</h3>
+      </section>
+      <section class="about me" id="about-me">
+        <h2>About me</h2><hr>
+          <p>I started this course to test my abilities. So far, I like the front-end direction and I see my development path in it.
+          I like to see the result of my work, that's why I'm here. I have no work experience and serious projects yet, but I am sure that everything is ahead.</p>
+      </section>
+      <section class="code-examples" id="code-examples">
+        <h2>Code examples</h2><hr>
+          <pre>
+            <code><br>
+              function multiply(a, b) {<br>
+              return a * b<br>
+              };
+            </code>
+          </pre>
+      </section>
+      <section class="work-experience" id="work-experience">
+        <h2>Work experience</h2><hr>
+          <p>not yet, i'm newbie</p>
+      </section>
+      <section class="education" id="education">
+        <h2>Education</h2><hr>
+          <ul>
+            <li>Udmurt State University (lawyer - master)</li>
+            <li>JavaScript Algorithms and Data Structure on freecodecamp.org <em>(in process)</em></li>
+            <li>Responsive Web Design <em>(completed)</em></li>
+            <li>JS / FRONT-END. STAGE 0 (RU) <em>(in process)</em></li>
+          </ul>
+      </section>
+      <section class="languages" id="languages">
+        <h2 >Languages</h2><hr>
+          <ul>
+            <li>Russian - native</li>
+            <li>English - A2</li>
+          </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-item">
+      <a href="https://github.com/ilyinsereja">ilyinsereja</a>
+      <p>2022</p> 
+      <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo" width="52" height="52"></a>
+    </div>
+  </footer>
+  </body>
 </html>
