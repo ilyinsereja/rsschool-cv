@@ -7,37 +7,47 @@
 <br>
 
 ## About me:
-I started this course to test my abilities. So far, I like the front-end direction and I see my development path in it.
-I like to see the result of my work, that's why I'm here. I have no work experience and serious projects yet, but I am sure that everything is ahead.
+Hi! I started this course to test my abilities. So far, I like the front-end direction and I see my development path in it. I like to see the result of my work, that's why I'm here.
+I have no work experience and serious projects yet, but I am sure that everything is ahead. I regularly develop my skills in this direction.
 <br>
 
 ## My skills:
 - HTML5
 - CSS3
 - JS
+- Git
 <br>
 
 ## Code examples
 
-```function multiply(a, b) {
-  return a * b
-};
+```function orderMyLogic(val) { 
+                if (val < 5) { 
+                  return "Less than 5"; 
+                } else if (val < 10) { 
+                  return "Less than 10"; 
+                } else {
+                  return "Greater than or equal to 10";
+                } 
+              }
+
+              orderMyLogic();
 ```
 <br>
 
 ## Work experience
-not yet, i'm newbie
+I don't have work experience yet. I'm newbie and just starting to do my first projects.
 <br>
 
 ## Education:
+- Udmurt State University *(lawyer - master)*
 - JavaScript Algorithms and Data Structure on freecodecamp.org *(in process)*
 - Responsive Web Design *(completed)*
 - JS / FRONT-END. STAGE 0 (RU) *(in process)*
 <br>
 
 ## Languages:
-- native - russian
-- english - A2
+- Russian - Native
+- English - A2
 
 
 

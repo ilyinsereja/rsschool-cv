@@ -7,9 +7,18 @@ html {
   }
 }
 
-@media (max-width: 960px) {
+/* @media (max-width: 960px) {
   body {
     width: 358px;
+  }
+} */
+
+@media screen and (max-width: 650px) {
+  main {
+    flex-direction: column;
+  }
+  .left-side {
+    order: -1;
   }
 }
 
@@ -30,25 +39,13 @@ hr {
 
 header {
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color: #092834;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/*
-header {
-  width: 100%;
-  height: 50px;
-  background-color: #2d4153;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-}
-*/
 .cv {
   color: #f1be32;
   font-size: min(5vw, 1.2em);
@@ -60,7 +57,7 @@ nav {
   width: 100%;
   max-width: 800px;
   height: 50px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 nav > ul {
@@ -81,7 +78,7 @@ nav > ul > li {
 }
 
 nav > ul > li:hover {
-  background-color: #dfdfe2;
+  background-color: #f1be32;
   color: #1b1b32;
   cursor: pointer;
 }
@@ -105,6 +102,23 @@ section {
   max-width: 800px;
 }
 
+h1 {
+  font-family: 'Gill Sans MT', sans-serif;
+  font-size: 50px;
+  margin: 10px 0% 0% 0%;
+}
+
+h2 {
+  font-family: 'Lucida Sans', sans-serif;
+  margin: 20px 0% 0% 20px;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  margin: 0% 0% 0% 20px;
+}
+
 .container-photo-cv {
   display: flex;
   justify-content: center;
@@ -112,35 +126,15 @@ section {
 }
 
 .photo-cv {
-  border-radius: 50px;
-}
-
-.bio {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
+  border-radius: 30px;
+  margin: 0%;
+  padding: 0%;
 }
 
 .left-side {
   width: 30%;
   background-color: #e4f1f6;
-}
-
-h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 50px;
-  margin-bottom: 0%;
-}
-
-h2 {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-bottom: 0%;
-  margin-left: 20px;
-  font-size: 2rem;
-}
-
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
 }
 
 .my-contact .my-skills {
@@ -151,17 +145,71 @@ h3 {
 
 .my-contact > ul > li {
   font-size: 20px;
+  font-style: italic;
   padding: 10px;
 }
 
+.my-contact-h2 {
+  background-color: #092834;
+  color: #dfdfe2;
+}
+
+.my-skills-h2 {
+  background-color: #092834;
+  color: #dfdfe2;
+}
+
 .my-skills > ul > li {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 600;
   padding: 15px;
 }
 
 .right-side {
   width: 70%;
   background-color: #fff;
+}
+
+.right-side > section {
+  margin-top: 35px;
+}
+
+.bio-h1 {
+  background-color: #f1be32;
+  max-width: 280px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.bio-h3 {
+  margin-top: 10px;
+}
+
+.about-me > p {
+  font-size: large;
+  text-indent: 20px;
+}
+
+pre {
+  font-size: 16px;
+  background-color: #eee;
+  color: #1b1b32;
+}
+
+.work-experience > p {
+  text-indent: 20px;
+  font-size: large;
+}
+
+.education > ul > li {
+  padding: 5px;
+  font-size: large;
+}
+
+.languages > ul > li {
+  padding: 5px;
+  font-size: large;
 }
 
 footer {
@@ -179,13 +227,16 @@ footer {
   flex-direction: row;
   margin: 0 100px;
   height: 100%;
+  font-family: 'Gill Sans MT', sans-serif;
+  font-size: large;
 }
 
 footer a {
   color: #dfdfe2;
 }
 
-pre {
-  background-color: #eee;
+.footer-item > a:hover {
+  background-color: #f1be32;
   color: #1b1b32;
+  cursor: pointer;
 }
